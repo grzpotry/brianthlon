@@ -60,7 +60,7 @@ public class TcpServer
     {
         String data = null;
         int i;
-        while ((i = clientStream.Read(_buffor, 0, _buffor.Length)) != 0)
+        if ((i = clientStream.Read(_buffor, 0, _buffor.Length)) != 0)
         {
             data = System.Text.Encoding.ASCII.GetString(_buffor, 0, i);
             Console.WriteLine("Received: {0}", data);
