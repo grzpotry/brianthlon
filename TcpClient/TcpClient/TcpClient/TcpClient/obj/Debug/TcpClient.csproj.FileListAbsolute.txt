@@ -1,0 +1,7 @@
+E:\Projekty\BrianthlonUnity\TcpClient\TcpClient\TcpClient\TcpClient\bin\Debug\TcpClient.exe.config
+E:\Projekty\BrianthlonUnity\TcpClient\TcpClient\TcpClient\TcpClient\bin\Debug\TcpClient.exe
+E:\Projekty\BrianthlonUnity\TcpClient\TcpClient\TcpClient\TcpClient\bin\Debug\TcpClient.pdb
+E:\Projekty\BrianthlonUnity\TcpClient\TcpClient\TcpClient\TcpClient\obj\Debug\TcpClient.csprojResolveAssemblyReference.cache
+E:\Projekty\BrianthlonUnity\TcpClient\TcpClient\TcpClient\TcpClient\obj\Debug\TcpClient.csproj.CoreCompileInputs.cache
+E:\Projekty\BrianthlonUnity\TcpClient\TcpClient\TcpClient\TcpClient\obj\Debug\TcpClient.exe
+E:\Projekty\BrianthlonUnity\TcpClient\TcpClient\TcpClient\TcpClient\obj\Debug\TcpClient.pdb

@@ -1,0 +1,7 @@
+E:\Projekty\BrianthlonUnity\TcpServer\TcpServer\bin\Debug\TcpServer.exe.config
+E:\Projekty\BrianthlonUnity\TcpServer\TcpServer\bin\Debug\TcpServer.exe
+E:\Projekty\BrianthlonUnity\TcpServer\TcpServer\bin\Debug\TcpServer.pdb
+E:\Projekty\BrianthlonUnity\TcpServer\TcpServer\obj\Debug\TcpServer.csprojResolveAssemblyReference.cache
+E:\Projekty\BrianthlonUnity\TcpServer\TcpServer\obj\Debug\TcpServer.csproj.CoreCompileInputs.cache
+E:\Projekty\BrianthlonUnity\TcpServer\TcpServer\obj\Debug\TcpServer.exe
+E:\Projekty\BrianthlonUnity\TcpServer\TcpServer\obj\Debug\TcpServer.pdb
