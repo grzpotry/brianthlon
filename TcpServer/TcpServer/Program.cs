@@ -9,9 +9,9 @@ public class TcpServer
 
     static void Main(string[] args)
     {
-        Int32 port = 5678;
+        Int32 port = 5679;
         IPAddress localAddr = IPAddress.Parse("127.0.0.1");
-        _server = new TcpListener(localAddr, port);
+        _server = new TcpListener(port);
         _server.Start();
         Console.WriteLine("Waiting for a connection... ");
         _client = _server.AcceptTcpClient();
