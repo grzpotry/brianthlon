@@ -3773,10 +3773,10 @@ MonoBehaviour:
   HelicopterModel: {fileID: 786398103}
   MainRotorController: {fileID: 1978543936}
   SubRotorController: {fileID: 481634395}
-  TurnForce: 3
+  TurnForce: 10
   ForwardForce: 10
   ForwardTiltForce: 20
-  TurnTiltForce: 30
+  TurnTiltForce: 90
   EffectiveHeight: 70
   turnTiltForcePercent: 1.5
   turnForcePercent: 1.3
@@ -3808,7 +3808,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aca98fe30070b08418d96b1a1dd92a5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _helicopterController: {fileID: 0}
+  turnLeft: Key_A
+  turnRight: Key_B
 --- !u!1 &786630432
 GameObject:
   m_ObjectHideFlags: 0
