@@ -27,8 +27,6 @@ public class IntendixReciever : MonoBehaviour {
             string command = System.Text.Encoding.Default.GetString(buffer);
             Debug.Log(command);
             HandleCommand(command);
-            //Console.WriteLine(Encoding.ASCII.GetString(data, 0, data.Length));
-            //newsock.Send(data, data.Length, sender);
         }
 
         
