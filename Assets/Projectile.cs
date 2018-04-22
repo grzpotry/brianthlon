@@ -27,7 +27,6 @@ public class Projectile : MonoBehaviour
 
         while (Time.time - timeStarted < timeOut)
         {
-            Debug.Log(Time.time - timeStarted);
             yield return null;
         }
         Instantiate(Explosion, transform.position, transform.rotation);
