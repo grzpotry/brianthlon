@@ -11,6 +11,9 @@ public class IntendixReciever : MonoBehaviour {
 
     public string turnLeft;
     public string turnRight;
+    public string shoot;
+
+    public GameObject ShootPrefab;
 
     private void Start() {
         _helicopterController = GetComponent<HelicopterController>();
@@ -29,19 +32,36 @@ public class IntendixReciever : MonoBehaviour {
             HandleCommand(command);
         }
 
-        
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            Shoot();
+        }
     }
 
     private void HandleCommand(string command)
     {
+        Debug.Log("Command: " + command);
         if (command == turnLeft) {
-            Debug.Log("Turning left");
+            Debug.Log("Processed Turning left");
             _helicopterController.ManualTurnLeft();
         }
         
         if (command == turnRight) {
-            Debug.Log("Turning right");
+            Debug.Log("Processed Turning right");
             _helicopterController.ManualTurnRight();
         }
+
+        if (command == shoot)
+        {
+            Debug.Log("Processed Shoot");
+            Shoot();
+        }
     }
+
+    void Shoot()
+    {
+        var projectile = Instantiate(ShootPrefab, transform.position, transform.rotation);
+        projectile.transform.RotateAround(transform.position, transform.up, Random.Range(-10f, 10f));
+    }
+
 }

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.45138657, g: 0.5004486, b: 0.5700206, a: 1}
+  m_IndirectSpecularColor: {r: 0.4513865, g: 0.5004485, b: 0.5700197, a: 1}
 --- !u!157 &4
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -3810,6 +3810,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   turnLeft: Key_A
   turnRight: Key_B
+  shoot: Key_C
+  ShootPrefab: {fileID: 1209570684774670, guid: f00be8ae1b156e245a19766eec029438,
+    type: 2}
 --- !u!1 &786630432
 GameObject:
   m_ObjectHideFlags: 0
@@ -4867,6 +4870,57 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1193418680}
   m_Mesh: {fileID: 4300006, guid: f55006f6a32a71b45a114b4680c1e575, type: 3}
+--- !u!1 &1196111166
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1196111168}
+  - component: {fileID: 1196111167}
+  m_Layer: 0
+  m_Name: Follower
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1196111167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1196111166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74a018b93f0a6d94293e0ed76a514b47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  on: 1
+  onlyInPlayMode: 1
+  sceneViewFollowers:
+  - enable: 1
+    positionOffset: {x: 0, y: 2, z: 0}
+    enableFixedRotation: 0
+    fixedRotation: {x: 0, y: 0, z: 0}
+    targetTransform: {fileID: 1805356199}
+    size: 7
+    orthographic: 0
+    sceneViewIndex: 0
+--- !u!4 &1196111168
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1196111166}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1198378485
 GameObject:
   m_ObjectHideFlags: 0
