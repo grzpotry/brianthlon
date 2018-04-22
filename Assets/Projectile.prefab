@@ -82,8 +82,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82acbd1be6506af4ba8f4312f6a1e7a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speeed: 10
-  timeOut: 0.1
+  speeed: 7
+  timeOut: 0.2
   Explosion: {fileID: 1516041992669200, guid: 9d25fb1705c02c14d88d3835ca7ecdf2, type: 2}
 --- !u!198 &198766704424991906
 ParticleSystem:
