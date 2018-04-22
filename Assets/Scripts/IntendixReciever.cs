@@ -7,6 +7,11 @@ public class IntendixReciever : MonoBehaviour {
     [SerializeField]
     HelicopterController _helicopterController;
 
+    private void Start()
+    {
+        _helicopterController = GetComponent<HelicopterController>();
+    }
+
     private void Update()
     {
         ProcessIntendixInput();
